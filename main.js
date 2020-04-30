@@ -3,9 +3,9 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/tigerinwater.jpg') {
-      myImage.setAttribute ('src','images/watertiger.jpg');
+      myImage.setAttribute ('src','watertiger.jpg');
     } else {
-      myImage.setAttribute ('src','images/tigerinwater.jpg');
+      myImage.setAttribute ('src','tigerinwater.jpg');
     }
 }
 
